@@ -13,6 +13,7 @@ header{
 
 .small-text {
     font-size: 14px;
+    
 }
 
 .btn.btn-outline-secondary {
@@ -29,11 +30,6 @@ header{
     border: 1px solid #D6D8DB;
     border-radius: 6px;
 }
-
-.bordes {
-    border-right: 1px solid #D8DEE4;
-    margin: 10px 0 10px 0;
-}
 .activity{
     border: 1px dashed #D6D8DB;
     border-radius: 6px;
@@ -43,4 +39,11 @@ header{
     font-size: 12px;
     margin: 0 auto;
     padding: 15px;
+}
+.pagina{
+    width: 100%;
+    height: 100%;
+}
+.updates{
+    background:var(--light-grad-pink-blue, radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%));
 }

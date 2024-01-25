@@ -92,13 +92,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2f705e39-652a-404b-804f-db5d3628f090"
   }
 }

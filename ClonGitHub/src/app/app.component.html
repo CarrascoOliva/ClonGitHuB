@@ -130,7 +130,7 @@
 </header>
 
 <body>
-  <!--Alert-->
+  <!--Alert
   <div class="alert alert-warning alert-dismissible fade show d-flex align-items-center justify-content-between top-0 "
     role="alert" style="margin-bottom: 0px;">
     <div class="small-text">
@@ -150,93 +150,201 @@
         aria-label="Close"></button>
     </div>
   </div>
-  <!--/Alert-->
-  <main>
-    <div class="flex-auto col-md-8 col-lg-8 px-3 px-sm-3 px-md-0">
-      <div class="p-2 flex-shrink-0 position-fixed h-100 bordes"
-        style="width: 336px;margin-bottom: 0px;margin-top: 0px;">
+  /Alert-->
+  <main class="container-fluid d-flex">
+    <div class="row no-gutters flex-grow-1">
+      <section class="col-md-3">
+        <div class="p-2 flex-shrink-0 position-fixed h-100 border-end"
+          style="width: 336px;margin-bottom: 0px;margin-top: 0px;">
+          <div style="width: 90%;margin: 0 auto;padding-top: 20px;">
 
-        <div style="width: 90%;margin: 0 auto;padding-top: 20px;">
+            <strong>Top Repositories</strong>
+            <button class="btn btn-success text-white " style="width: 5rem;">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                data-view-component="true">
+                <path
+                  d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z">
+                </path>
+              </svg> New</button>
+            <br>
+            <input class="form-control me-2 fondo" type="search" placeholder="Find a repository..." aria-label="Search">
+            <ul class="list-group list-group-flush">
+              <li class="list-inline-item ">
+                <span class="Button-label">
+                  <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
+                    width="16" height="16">
+                </span>
+                <span> CarrascoOliva/visual-global</span>
+              </li>
+              <li class="list-inline-item ">
+                <span class="Button-label">
+                  <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
+                    width="16" height="16">
+                </span>
+                <span> CarrascoOliva/ClimAPI</span>
+              </li>
+              <li class="list-inline-item ">
+                <span class="Button-label">
+                  <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
+                    width="16" height="16">
+                </span>
+                <span> CarrascoOliva/Spotify-Grupo-4</span>
+              </li>
+              <li class="list-inline-item ">
+                <span class="Button-label">
+                  <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
+                    width="16" height="16">
+                </span>
+                <span> CarrascoOliva/Porfolio</span>
+              </li>
+              <li class="list-inline-item ">
+                <span class="Button-label">
+                  <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
+                    width="16" height="16">
+                </span>
+                <span> CarrascoOliva/ClonGitHuB</span>
+              </li>
+              <li class="list-inline-item ">
+                <span class="Button-label">
+                  <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
+                    width="16" height="16">
+                </span>
+                <span> CarrascoOliva/Millonarios</span>
+              </li>
+              <li class="list-inline-item ">
+                <span class="Button-label">
+                  <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
+                    width="16" height="16">
+                </span>
+                <span> CarrascoOliva/pokemon</span>
+              </li>
+            </ul>
+            <span class="small-text">Show more</span>
 
-          <strong>Top Repositories</strong>
-          <button class="btn btn-success text-white " style="width: 5rem;">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true">
-              <path
-                d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z">
-              </path>
-            </svg> New</button>
-          <br>
-          <input class="form-control me-2 fondo" type="search" placeholder="Find a repository..." aria-label="Search">
-          <ul class="list-group list-group-flush">
-            <li class="list-inline-item ">
-              <span class="Button-label">
-                <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle" width="16"
-                  height="16">
+            <div>
+              <span>
+                <strong style="font-size: 14px;">Recent activity</strong>
               </span>
-              <span> CarrascoOliva/visual-global</span>
-            </li>
-            <li class="list-inline-item ">
-              <span class="Button-label">
-                <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle" width="16"
-                  height="16">
+              <div class="activity">
+                <p>When you take actions across GitHub, we’ll provide links to that activity here.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="col-md-6 col-lg-6 px-3 px-sm-3 px-md-0">
+        <div class="p-2 flex-shrink-0 position-fixed h-100 w-50">
+          <h5 class="p-2 m-1">Home</h5>
+          <div class="alert  alert-dismissible fade show border updates" role="alert">
+
+            <h6>Updates to your homepage feed</h6>
+            <br>
+            <p>We've combined the power of the Following feed with the For you feed so there’s one place to discover
+              content on GitHub. There’s improved filtering so you can customize your feed exactly how you like it,
+              and a shiny new visual design. ✨</p>
+            <a class="Link ml-2 text-bold"
+              href="https://github.blog/changelog/2023-09-06-updates-to-your-github-feed/">Learn more</a>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <header class="d-flex flex-items-center flex-justify-between">
+            <div class="d-flex flex-items-center justify-content-between align-items-center w-100 ">
+              <div class="d-flex flex-items-center">
+                <span class="d-inline-flex p-2 mr-2" style="background-color: #D0D7DE; border-radius: 50%;">
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                    data-view-component="true" class="octicon octicon-code color-fg-subtle">
+                    <path
+                      d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z">
+                    </path>
+                  </svg>
+                </span>
+                <h3 class="text-normal color-fg-muted h5 ">Start writing code</h3>
+              </div>
+              
+              <div style="text-align: right;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                  <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+                </svg>
+              </div>
+            </div>
+            
+          </header>
+          <div class="d-flex">
+            <div class="col-sm-6 col-md-12 col-xl-6 p-1 m-1  border rounded ">
+              <h4 class="mb-2 h5">Start a new repository for CarrascoOliva</h4>
+            </div>
+            <div class="col-sm-6 col-md-12 col-xl-6 m-1 border rounded ">
+              <h4 class="mb-2 h5">Repositories that need your help</h4>
+              <span>
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                  data-view-component="true">
+                  <path
+                    d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z">
+                  </path>
+                </svg>
+                <a href="#">gradle</a> / <a href="#">gradle</a>
               </span>
-              <span> CarrascoOliva/ClimAPI</span>
-            </li>
-            <li class="list-inline-item ">
-              <span class="Button-label">
-                <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle" width="16"
-                  height="16">
+              <p>Adaptable, fast automation for all</p>
+
+              <br>
+
+              <span>
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                  data-view-component="true">
+                  <path
+                    d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z">
+                  </path>
+                </svg>
+                <a href="#">joaomatossilva </a> / <a href="#">DateTimeExtensions</a>
               </span>
-              <span> CarrascoOliva/Spotify-Grupo-4</span>
-            </li>
-            <li class="list-inline-item ">
-              <span class="Button-label">
-                <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle" width="16"
-                  height="16">
+              <p>This project is a merge of several common DateTime operations on the form of extensions to
+                System.DateTime, including natural date difference text (precise and human rounded), holidays and
+                working days calculations on several culture locales.</p>
+              <br>
+
+              <span>
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                  data-view-component="true">
+                  <path
+                    d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z">
+                  </path>
+                </svg>
+                <a href="#">joaomatossilva </a> / <a href="#">DateTimeExtensions</a>
               </span>
-              <span> CarrascoOliva/Porfolio</span>
-            </li>
-            <li class="list-inline-item ">
-              <span class="Button-label">
-                <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle" width="16"
-                  height="16">
-              </span>
-              <span> CarrascoOliva/ClonGitHuB</span>
-            </li>
-            <li class="list-inline-item ">
-              <span class="Button-label">
-                <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle" width="16"
-                  height="16">
-              </span>
-              <span> CarrascoOliva/Millonarios</span>
-            </li>
-            <li class="list-inline-item ">
-              <span class="Button-label">
-                <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle" width="16"
-                  height="16">
-              </span>
-              <span> CarrascoOliva/pokemon</span>
-            </li>
-          </ul>
-          <span class="small-text">Show more</span>
-          
-          <div>
-            <span>
-              <strong style="font-size: 14px;">Recent activity</strong>
-            </span>
-            <div class="activity">
-              <p>When you take actions across GitHub, we’ll provide links to that activity here.</p>
+              <p>This project is a merge of several common DateTime operations on the form of extensions to
+                System.DateTime, including natural date difference text (precise and human rounded), holidays and
+                working days calculations on several culture locales.</p>
+              <br>
+              <button type="button" class="btn btn-outline-secondary">
+                See more repos with good first issues
+              </button>
+
             </div>
           </div>
-          
         </div>
-      </div>
 
-      <div class="p-2 w-100">
-        <div class="container ">
-          
-        </div>
-      </div>
+      </section>
+      <aside class="col-2 m-5 p-4 border rounded " style="position: fixed; right: 0;" aria-label="Explore">
+        <p><strong>Explore repositories</strong></p>
+        <p><strong>Homebrew profile Homebrew / homebrew-cask</strong></p>
+        <p>🍻 A CLI workflow for the administration of macOS applications distributed as binaries</p>
+        <span>20.3k</span>
+        <span>Ruby</span>
+        <hr>
+
+        <p><strong> microsoft / onnxruntime</strong></p>
+        <p>ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator</p>
+        <span>11.6k</span>
+        <span>C++</span>
+        <hr>
+
+        <p><strong> minio / console</strong></p>
+        <p>Simple UI for MinIO Object Storage 🧮</p>
+        <span>739</span>
+        <span>TypeScript</span>
+        <br>
+        <a href="#">Explore more →</a>
+      </aside>
     </div>
   </main>
 
