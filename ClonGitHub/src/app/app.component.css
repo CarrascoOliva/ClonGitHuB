@@ -18,7 +18,11 @@ h6 {
 p {
     text-wrap: pretty;
 }
+.tamaño{
+    width: 33px;
+    height: 33px;
 
+}
 header {
     height: 64px;
 }
@@ -26,6 +30,9 @@ header {
 .fondo {
     background-color: #F6F8FA;
 }
+.fondo2 {
+    background-color: #d0d3d4;
+}c
 
 .small-text {
     font-size: 14px;

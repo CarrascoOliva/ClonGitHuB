@@ -1,13 +1,15 @@
 <header class="d-flex flex-wrap justify-content-center py-3  p-3  border-bottom cursor-hover fondo">
-  <a class="btn btn-outline-secondary p-2 borde" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-    aria-controls="offcanvasExample">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+
+
+  <button type="button" class="btn btn-outline-secondary p-1 borde tamaño" data-bs-toggle="offcanvas"
+    href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
       viewBox="0 0 16 16">
       <path fill-rule="evenodd"
         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
     </svg>
-  </a>
-  <a href="/" class="d-flex align-items-center  mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+  </button>
+  <a class="d-flex align-items-center mb-3  me-md-auto link-body-emphasis text-decoration-none">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="32" fill="currentColor" class="bi bi-github"
       viewBox="0 0 16 16">
       <path
@@ -19,82 +21,86 @@
   </a>
 
   <ul class="nav nav-pills">
-    <li class="nav-item dropdown mr-3">
-      <a class="nav-link btn btn-outline-secondary p-2 borde dropdown-toggle" href="#" role="button"
-        data-bs-toggle="dropdown" aria-expanded="false">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
-          class="octicon octicon-plus">
-          <path
-            d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 0 1 0 1.5H8.5v4.25a.75.75 0 0 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2Z">
-          </path>
-        </svg>
-      </a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li>
-          <hr class="dropdown-divider">
-        </li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
-      </ul>
+    <li class="nav-item me-2 ">
+      <div class="input-group">
+        <div class="input-group-text border border-end-0 text-secondary" id="btnGroupAddon2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-search pointer-hover" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+              class="pointer-hover"></path>
+          </svg>
+        </div>
+
+        <input type="text" class="form-control fondo border border-0 border-top border-bottom text-secondary"
+          placeholder="Type / to search " aria-label="Input group example" aria-describedby="btnGroupAddon2"
+          style="height: 33px; font-size: 14px;">
+
+        <div class="input-group-text text-secondary" id="btnGroupAddon2">
+
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" fill="currentColor"
+            data-view-component="true" class="octicon octicon-command-palette">
+            <path
+              d="m6.354 8.04-4.773 4.773a.75.75 0 1 0 1.061 1.06L7.945 8.57a.75.75 0 0 0 0-1.06L2.642 2.206a.75.75 0 0 0-1.06 1.061L6.353 8.04ZM8.75 11.5a.75.75 0 0 0 0 1.5h5.5a.75.75 0 0 0 0-1.5h-5.5Z">
+            </path>
+          </svg>
+        </div>
+      </div>
+
     </li>
-    <li class="nav-item mr-3">
-      <button type="button" class="btn btn-outline-secondary p-2 borde">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
-          class="octicon octicon-plus">
+
+    <li class="nav-item me-2 ">
+      <button type="button" class="btn btn-outline-secondary text-secondary p-2 borde">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" fill="currentColor"
+          data-view-component="true" class="octicon octicon-plus me-1 ">
           <path
             d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 0 1 0 1.5H8.5v4.25a.75.75 0 0 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2Z">
           </path>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill"
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" fill="currentColor" class="bi bi-caret-down-fill"
           viewBox="0 0 16 16">
           <path
             d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
         </svg>
       </button>
     </li>
-    <li class="nav-item mb-3 mb-md-0 me-md-auto">
+
+    <li class="nav-item me-2 ">
       <button type="button" class="btn btn-outline-secondary p-2 borde">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
-          class="octicon octicon-issue-opened Button-visual">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" fill="currentColor"
+          data-view-component="true" class="octicon octicon-issue-opened Button-visual">
           <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
           <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
         </svg>
       </button>
     </li>
-    <li class="nav-item mr-3">
+
+    <li class="nav-item me-2">
       <button type="button" class="btn btn-outline-secondary p-2 borde">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
-          class="octicon octicon-git-pull-request Button-visual">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" fill="currentColor"
+          data-view-component="true" class="octicon octicon-git-pull-request Button-visual">
           <path
             d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z">
           </path>
         </svg>
       </button>
     </li>
-    <li class="nav-item mr-3">
+
+    <li class="nav-item">
       <button type="button" class="btn btn-outline-secondary p-2 borde">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-          class="bi bi-search pointer-hover" viewBox="0 0 16 16">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" fill="currentColor"
+          data-view-component="true" class="octicon octicon-inbox Button-visual">
           <path
-            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
-            class="pointer-hover"></path>
-        </svg>
-      </button>
-    </li>
-    <li class="nav-item mr-3">
-      <button type="button" class="btn btn-outline-secondary p-2 borde">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
-          class="octicon octicon-inbox Button-visual">
-          <path
-            d="M2.8 2.06A1.75 1.75 0 0 1 4.41 1h7.18c.7 0 1.333.417 1.61 1.06l2.74 6.395c.04.093.06.194.06.295v4.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25v-4.5c0-.101.02-.202.06-.295Zm1.61.44a.25.25 0 0 0-.23.152L1.887 8H4.75a.75.75 0 0 1 .6.3L6.625 10h2.75l1.275-1.7a.75.75 0 0 1 .6-.3h2.863L11.82 2.652a.25.25 0 0 0-.23-.152Zm10.09 7h-2.875l-1.275 1.7a.75.75 0 0 1-.6.3h-3.5a.75.75 0 0 1-.6-.3L4.375 9.5H1.5v3.75c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Z">
+            d="M2.8 2.06A1.75 1.75 0 0 1 4.41 1h7.18c.7 0 1.333.417 1.61 1.06l2.74 6.395c.04.093.06.194.06.295v4.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25v-4.5c0-.101.02-.202.06-.295Zm1.61.44a.25.25 0 0 0-.23.152L1.887 8H4.75a.75.75 0 0 1 .6.3L6.625 10h2.75l1.275-1.7a.75.75 0 0 1 .6-.3h2.863L11.82 2.652a.25.25 0 0 0-.23-.152Zm10.09 7h-2.875l-1.275 1.7a.75.75 0 0 1-.6.3h-3.5a.75.75 0 0 1-.6-.3L4.375 9.5H1.5v3.75c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Z"
+            class="pointer-hover">
           </path>
         </svg>
       </button>
     </li>
 
-    <li class="nav-item mr-3">
-      <button type="button" class="btn">
+    <li class="nav-item ">
+      <button type="button" class="btn" style="padding-top: 0px;" onclick="location.href='login.component.html';">
         <span class="Button-content">
           <span class="Button-label">
             <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle" width="32"
@@ -107,30 +113,27 @@
 
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="32" fill="currentColor" class="bi bi-github"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+        </svg>
+      </h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
       <div>
-        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-        etc.
+
       </div>
-      <div class="dropdown mt-3">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-          Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </div>
+
     </div>
   </div>
+
 </header>
 
 <body>
-  <!--Alert
+
   <div class="alert alert-warning alert-dismissible fade show d-flex align-items-center justify-content-between top-0 "
     role="alert" style="margin-bottom: 0px;">
     <div class="small-text">
@@ -142,76 +145,87 @@
       before
       January 26, 2024, or be restricted from account actions.
     </div>
-    <div class="d-flex align-items-center">
-      <button type="button" class="btn btn-light  me-4 borde" style="width: 7rem;">
+    <div class="d-flex align-items-center me-3 ">
+      <button type="button" class="btn btn-light me-2 borde" style="width: 10rem; white-space: nowrap;">
         <strong style="font-size: 14px;">Enable 2FA</strong>
       </button>
       <button type="button" class="btn-close me-3 m-4 " style="width: 1rem;" data-bs-dismiss="alert"
         aria-label="Close"></button>
     </div>
   </div>
-  /Alert-->
-  <main class="container-fluid d-flex">
-    <div class="row no-gutters flex-grow-1">
+
+  <main class="container-fluid ">
+    <div class="row ">
+
+      <!--lateral-->
       <section class="col-md-3">
         <div class="p-2 flex-shrink-0 position-fixed h-100 border-end"
           style="width: 336px;margin-bottom: 0px;margin-top: 0px;">
           <div style="width: 90%;margin: 0 auto;padding-top: 20px;">
 
-            <strong>Top Repositories</strong>
-            <button class="btn btn-success text-white " style="width: 5rem;">
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
-                data-view-component="true">
-                <path
-                  d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z">
-                </path>
-              </svg> New</button>
+            <div class="d-flex justify-content-between align-items-center">
+
+              <strong>Top Repositories</strong>
+
+
+              <button class="btn btn-success pe-2 px-2  text-white ">
+                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                  data-view-component="true">
+                  <path fill="white"
+                    d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z">
+                  </path>
+                </svg> 
+                New
+              </button>
+            </div>
+
             <br>
-            <input class="form-control me-2 fondo" type="search" placeholder="Find a repository..." aria-label="Search">
+            <input class="form-control mb-2  fondo" type="search" placeholder="Find a repository..."
+              aria-label="Search">
             <ul class="list-group list-group-flush">
-              <li class="list-inline-item ">
+              <li class="list-inline-item p-1 ">
                 <span class="Button-label">
                   <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
                     width="16" height="16">
                 </span>
                 <span> CarrascoOliva/visual-global</span>
               </li>
-              <li class="list-inline-item ">
+              <li class="list-inline-item p-1 ">
                 <span class="Button-label">
                   <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
                     width="16" height="16">
                 </span>
                 <span> CarrascoOliva/ClimAPI</span>
               </li>
-              <li class="list-inline-item ">
+              <li class="list-inline-item p-1">
                 <span class="Button-label">
                   <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
                     width="16" height="16">
                 </span>
                 <span> CarrascoOliva/Spotify-Grupo-4</span>
               </li>
-              <li class="list-inline-item ">
+              <li class="list-inline-item p-1">
                 <span class="Button-label">
                   <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
                     width="16" height="16">
                 </span>
                 <span> CarrascoOliva/Porfolio</span>
               </li>
-              <li class="list-inline-item ">
+              <li class="list-inline-item p-1">
                 <span class="Button-label">
                   <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
                     width="16" height="16">
                 </span>
                 <span> CarrascoOliva/ClonGitHuB</span>
               </li>
-              <li class="list-inline-item ">
+              <li class="list-inline-item p-1">
                 <span class="Button-label">
                   <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
                     width="16" height="16">
                 </span>
                 <span> CarrascoOliva/Millonarios</span>
               </li>
-              <li class="list-inline-item ">
+              <li class="list-inline-item p-1">
                 <span class="Button-label">
                   <img src="https://avatars.githubusercontent.com/u/145786543?v=4" alt="" class="rounded-circle"
                     width="16" height="16">
@@ -233,9 +247,28 @@
           </div>
         </div>
       </section>
+
+      <!--centro-->
       <section class="col-md-6 col-lg-6 px-3 px-sm-3 px-md-0">
         <div class="p-2 flex-shrink-0 position-fixed h-100 w-50">
-          <h5 class="p-2 m-1">Home</h5>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <h5 class="p-2 m-1">Home</h5>
+
+            <div class="d-flex align-items-center">
+              <a class="link-primary ml-2 me-4" href="#">Send feedback</a>
+              <button type="button" class="btn border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-filter"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5" />
+                </svg>
+                Filter <span class="badge rounded-pill text-bg-light fondo2">0</span>
+              </button>
+
+            </div>
+          </div>
+
           <div class="alert  alert-dismissible fade show border updates" role="alert">
 
             <h6>Updates to your homepage feed</h6>
@@ -247,10 +280,11 @@
               href="https://github.blog/changelog/2023-09-06-updates-to-your-github-feed/">Learn more</a>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
+
           <header class="d-flex flex-items-center flex-justify-between">
             <div class="d-flex flex-items-center justify-content-between align-items-center w-100 ">
-              <div class="d-flex flex-items-center">
-                <span class="d-inline-flex p-2 mr-2" style="background-color: #D0D7DE; border-radius: 50%;">
+              <div class="d-flex flex-items-center align-items-center">
+                <span class="d-inline-flex p-2 me-2" style="background-color: #D0D7DE; border-radius: 50%;">
                   <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
                     data-view-component="true" class="octicon octicon-code color-fg-subtle">
                     <path
@@ -258,24 +292,49 @@
                     </path>
                   </svg>
                 </span>
-                <p class="text-normal color-fg-muted h5"> Start writing code </p>
+                <p class="text-normal color-fg-muted small mb-0">Start writing code</p>
               </div>
-              
+
               <div style="text-align: right;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
-                  <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-three-dots" viewBox="0 0 16 16">
+                  <path
+                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
                 </svg>
               </div>
             </div>
-            
+
           </header>
 
           <div class="d-flex">
-            <div class="col-sm-6 col-md-12 col-xl-6 p-1 m-1  border rounded ">
-              <h4 class="mb-2 h5">Start a new repository for CarrascoOliva</h4>
+            <div class="col-sm-6 col-md-12 col-xl-6 p-3 m-1 small  border rounded ">
+              <p class="mb-2 "><strong>Start a new repository for CarrascoOliva</strong></p>
+              <p>A repository contains all of your project's files, revision history, and collaborator discussion.</p>
+              <label for=""><strong>Repository name *</strong></label>
+              <input type="text" class="form-control " placeholder="name your new repository...">
+              <div class="form-check m-2 ">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  <strong>Public</strong>
+                </label>
+                <p style="font-size: small;">Anyone on the internet can see this repository</p>
+              </div>
+              <div class="form-check m-2 ">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  <strong>Private</strong>
+                </label>
+                <p style="font-size: small;">You choose who can see and commit to this repository</p>
+              </div>
+              <button type="button" class="btn btn-success" style="font-size: 12px;"><strong>Create new repository</strong></button>
             </div>
-            <div class="col-sm-6 col-md-12 col-xl-6 m-1 border rounded ">
-              <h4 class="mb-2 h5">Repositories that need your help</h4>
+
+            <div class="col-sm-6 col-md-12 col-xl-6 p-3  m-1 small border rounded ">
+              <p class="mb-2 ">
+                <strong>
+                  Repositories that need your help
+                </strong>
+              </p>
               <span>
                 <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
                   data-view-component="true">
@@ -317,8 +376,8 @@
                 System.DateTime, including natural date difference text (precise and human rounded), holidays and
                 working days calculations on several culture locales.</p>
               <br>
-              <button type="button" class="btn btn-outline-secondary">
-                See more repos with good first issues
+              <button type="button" class="btn fondo border" style="font-size: 12px;">
+                <strong>See more repos with good first issues</strong>
               </button>
 
             </div>
@@ -336,21 +395,23 @@
                 </span>
                 <p class="text-normal color-fg-muted h5"> Start writing code </p>
               </div>
-              
+
               <div style="text-align: right;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
-                  <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-three-dots" viewBox="0 0 16 16">
+                  <path
+                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
                 </svg>
               </div>
             </div>
-            
+
           </header>
-          
+
         </div>
-        
+
       </section>
       <!--aside-->
-      <aside class="col-2 m-5 p-4 border rounded " style="position: fixed; right: 0;" aria-label="Explore">
+      <aside class="col-2 m-5 p-4 border rounded small  " style="position: fixed; right: 0;" aria-label="Explore">
         <p><strong>Explore repositories</strong></p>
         <p><strong>Homebrew profile Homebrew / homebrew-cask</strong></p>
         <p>🍻 A CLI workflow for the administration of macOS applications distributed as binaries</p>
@@ -362,12 +423,6 @@
         <p>ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator</p>
         <span>11.6k</span>
         <span>C++</span>
-        <hr>
-
-        <p><strong> minio / console</strong></p>
-        <p>Simple UI for MinIO Object Storage 🧮</p>
-        <span>739</span>
-        <span>TypeScript</span>
         <br>
         <a href="#">Explore more →</a>
       </aside>
